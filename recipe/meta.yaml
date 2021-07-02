@@ -1,5 +1,5 @@
 {% set name = "pretty_errors" %}
-{% set version = "1.2.22" %}
+{% set version = "1.2.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9d8f03385f4f664f2e158338b5b060c17a90dea0ef60d30de17dfdfab601607f
+  sha256: e8a5abbad5cd70302f2f435709d82ce97d1c05b1d4d6c1636e4ff1ffbf517360
 
 build:
   noarch: python
